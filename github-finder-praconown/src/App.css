@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.img-set {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.card-align {
+  /* display:inline; */
+  /* display:inline-grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.form-control{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+/* .user-style{
+    width:33%;
+} */
